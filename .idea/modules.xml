@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka-server/Eureka-server.iml" filepath="$PROJECT_DIR$/Eureka-server/Eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shang-api/shang-api.iml" filepath="$PROJECT_DIR$/shang-api/shang-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shang-course-service/shang-course-service.iml" filepath="$PROJECT_DIR$/shang-course-service/shang-course-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shang-pojo/shang-pojo.iml" filepath="$PROJECT_DIR$/shang-pojo/shang-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shang-usercenter-service/shang-usercenter-service.iml" filepath="$PROJECT_DIR$/shang-usercenter-service/shang-usercenter-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent.iml" />
+    </modules>
+  </component>
+</project>

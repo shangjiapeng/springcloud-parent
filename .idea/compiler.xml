@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shang-usercenter-service" />
+        <module name="shang-course-service" />
+        <module name="Eureka-server" />
+        <module name="shang-pojo" />
+        <module name="shang-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka-server" target="1.8" />
+      <module name="shang-api" target="1.8" />
+      <module name="shang-course-service" target="1.8" />
+      <module name="shang-pojo" target="1.8" />
+      <module name="shang-usercenter-service" target="1.8" />
+      <module name="springboot_demo" target="1.5" />
+      <module name="springBootDemo" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+      <module name="springcloud-service-conumer" target="1.8" />
+      <module name="springcloud-service-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka-server" options="-parameters" />
+      <module name="shang-api" options="-parameters" />
+      <module name="shang-course-service" options="-parameters" />
+      <module name="shang-pojo" options="-parameters" />
+      <module name="shang-usercenter-service" options="-parameters" />
+    </option>
+  </component>
+</project>

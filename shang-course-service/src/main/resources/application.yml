@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery1:123456@discovery1:8761/eureka,http://discovery2:123456@discovery2:8762/eureka,http://discovery3:123456@discovery3:8763/eureka  #服务器集群
+     # defaultZone: http://admin:eureka@localhost:8761/eureka/  #eureka注册中心地址
+spring:
+  application:
+    name: shang-course-service #应用名
+
